@@ -1,0 +1,15 @@
+form label{
+	margin: 0 10px 0 0;
+}
+form .link{
+	color: white;
+	bottom: 0px;
+	border: none;
+}
+form{
+	border: dotted 1px #4a7e0c;
+	height: 400px;
+}
+#address{
+	width: 380px;
+}
