@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/default.css"/>
 	<link rel="stylesheet" media="only screen and (max-width: 760px), only screen and (max-device-width: 760px)" href="<?php echo URL; ?>/pablic/css/small_default.css"/>
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/order.css"/>
+	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/admin.css"/>
 </head>
 <body>
 	<div class="wrapper">

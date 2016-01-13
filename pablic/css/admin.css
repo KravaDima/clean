@@ -1,0 +1,13 @@
+.admin table, .admin table td{
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+.admin{
+	margin-left: 100px;
+	margin-right: 100px;
+	min-height: 470px;
+}
+.admin a{
+	color: black;
+}
