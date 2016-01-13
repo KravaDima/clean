@@ -19,14 +19,15 @@ header{
 	color: white;
 }
 #menu{
-	float: right;
-	margin-right: 50px;
+	float: left;
+	margin-right: 1em;
 	padding-top: 1.5em;
 	text-align: center;
 }
 #menu li{
 	display: inline;
-	margin: 15px;
+	/*margin: 15px;*/
+	padding: 10px;
 }
 a{
 	color: white;
@@ -36,7 +37,7 @@ a{
 header img{
 	float: left;
 	height: 4em;
-	margin-left: 50px;
+	margin-left: 1em;
 }
 #background{
 	background: url(/pablic/img/back.png) no-repeat;
@@ -140,9 +141,6 @@ footer{
 footer table{
 	float: right;
 	margin: 50px 10px 0 0;
-}
-footer table td{
-	padding-right: 15px; 
 }
 #logo{
 	float: left;
