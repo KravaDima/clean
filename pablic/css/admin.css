@@ -3,9 +3,9 @@
 	border-collapse: collapse;
 	padding: 10px;
 }
-.admin{
-	margin-left: 100px;
-	margin-right: 100px;
+.admin, .login{
+	margin: auto;
+	width: 870px;
 	min-height: 470px;
 }
 .admin a{

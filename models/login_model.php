@@ -5,7 +5,7 @@
 		}
 
 		public function run(){
-			$sth = $this->db->prepare("SELECT id, role FROM users WHERE login = :login AND pass = :pass");
+			$sth = $this->db->prepare("SELECT id, role FROM users WHERE login = :login AND pass = MD5(:pass)");
 			$sth->execute(array(
 								":login"=>"$_POST[login]",
 								":pass"=>"$_POST[pass]"));

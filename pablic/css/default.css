@@ -72,7 +72,7 @@ h1{
     list-style: none;
 }
 #service{
-	height: 597px;
+	min-height: 597px;
 	text-align: center;
 }
 #service table, #feedback table, #why table,#service .link{
@@ -84,13 +84,13 @@ h1{
 	width: 150px;
 }
 #why{
-	height: 461px;
+	min-height: 461px;
 	background-color: #4a7e0c;
 	color: white;
 	text-align: center;
 }
 #feedback{
-	height: 550px;
+	min-height: 550px;
 	text-align: center;
 }
 #feedback td{
