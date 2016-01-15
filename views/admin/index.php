@@ -1,5 +1,5 @@
 <div class="admin">
-	<a href="">Выход</a>
+	<a href="admin/logout">Выход</a>
 <h1>Заказы:</h1>
 <table>
 	<?php

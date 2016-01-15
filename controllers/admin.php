@@ -15,5 +15,11 @@
 			$this->view->orderlist = $this->model->orderlist();
 			$this->view->render("admin/index");
 		}
+
+		public function logout(){
+			Session::destroy();
+			header("Location: ../login");
+			exit();
+		}
 	}
 ?>
