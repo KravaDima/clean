@@ -148,7 +148,7 @@ footer table{
 }
 #about, #answer, #price, #garant, .error, .ok{
 	margin: auto;
-	width: 780px;
+	width: 640px;
 }
 .error, .ok{
 	height: 500px;

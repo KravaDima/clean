@@ -3,7 +3,7 @@
 <head>
 	<title>CleanDnipro - уборка подъездов Днепропетровск</title>
 	<meta charset="UTF-8" />
-	<meta name="description" content="Клининговая компания CleanDnipro - уборка подъездов Днепропетровск"/>
+	<meta name="description" content="Клининговая компания CleanDnipro - уборка подъездов Днепропетровск <?php echo TEL;?>"/>
 	<meta name="keywords" content="убрать в подъезде, уробка подъездов Днепропетровск"/>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/default.css"/>
@@ -16,7 +16,7 @@
 	<header>
 	<a href="/"><img src="<?php echo IMG; ?>/banner 900x300.png" alt=""></a>
 		<ul id="menu">
-			<li><a href="tel:+380930000000"><?php echo TEL;?></a></li>
+			<li><a href="tel:+38<?php echo TEL;?>"><?php echo TEL;?></a></li>
 			<li><a href="<?php echo URL; ?>/about">О нас</a></li>
 			<li><a href="<?php echo URL; ?>/answer">Ответы на вопросы</a></li>
 			<li><a href="<?php echo URL; ?>/price">Рассчитать уборку</a></li>

@@ -160,6 +160,11 @@ footer td:hover {
 	margin: auto;
 	width: 870px;
 }
+
+#about a{
+	color: black;
+	font-weight: bolder;
+}
 .error, .ok{
 	height: 500px;
 }
