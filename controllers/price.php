@@ -14,13 +14,6 @@
 				$tel = $_POST[tel];
 				$address = $_POST[address];
 				$type = $_POST[type];
-				// $date = $_POST[date];
-				// $dop[] = $_POST[dop1];
-				// $dop[] = $_POST[dop2];
-				// $dop[] = $_POST[dop3];
-				// $dop[] = $_POST[dop4];
-				// $dop[] = $_POST[dop5];
-				// $dop[] = $_POST[dop6];
 				if($this->model->saveorder($name, $tel, $address, $type) == true){
 					$this->view->render("price/order/index");
 				} else{

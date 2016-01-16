@@ -156,7 +156,7 @@ footer td:hover {
 	float: left;
 	margin: 30px 0 0 100px;
 }
-#about, #answer, #price, #garant, .error, .ok{
+#about, #answer, #price, #garant, .error, .ok, .what{
 	margin: auto;
 	width: 870px;
 }

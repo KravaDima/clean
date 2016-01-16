@@ -8,7 +8,7 @@
 	define("URL", "http://cleandnipro");
 	define("IMG", "http://cleandnipro/pablic/img");
 	define("EMAIL", "cleandnipro@gmail.com");
-	define("TEL", "(095) 230 83 33");
+	define("TEL", "(068) 922 88 96");
 
 	define("MSGS", "Ваш заказ принят!");
 ?>
