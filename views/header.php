@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/admin.css"/>
 </head>
 <body>
+	<?php include_once("/libs/analyticstracking.php") ?>
 	<div class="wrapper">
 	<header>
 	<a href="/"><img src="<?php echo IMG; ?>/banner 900x300.png" alt=""></a>

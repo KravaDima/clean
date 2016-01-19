@@ -161,7 +161,7 @@ footer td:hover {
 	width: 870px;
 }
 
-#about a{
+#about a, #answer a{
 	color: black;
 	font-weight: bolder;
 }
