@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 <head>
-	<title>CleanDnipro - уборка подъездов Днепропетровск</title>
+	<title>Уборка подъездов в Днепропетровске. Цены на уборку в подъезде. Клининговая компания CleanDnipro.</title>
 	<meta charset="UTF-8" />
-	<meta name="description" content="Клининговая компания CleanDnipro - уборка подъездов Днепропетровск <?php echo TEL;?>"/>
+	<meta name="description" content="Уборка подъездов Днепропетровск. Клининговая компания CleanDnipro. <?php echo TEL;?>"/>
 	<meta name="keywords" content="убрать в подъезде, уробка подъездов Днепропетровск"/>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/default.css"/>
