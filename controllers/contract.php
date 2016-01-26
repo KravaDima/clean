@@ -5,7 +5,7 @@
 		}
 
 		public function index(){
-			$this->view->render("contract/index");
+			$this->view->render("contract/index", $this->model->title());
 		}
 	}
 ?>

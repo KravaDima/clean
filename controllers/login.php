@@ -5,7 +5,7 @@
 		}
 
 		public function index(){
-			$this->view->render("login/index");
+			$this->view->render("login/index", $this->model->title());
 		}
 
 		public function run(){

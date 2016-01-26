@@ -14,5 +14,9 @@
 				return false;
 			}					
 		}
+
+		public function title(){
+			return "Оформить заказ";
+		}
 	}
 ?>

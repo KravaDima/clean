@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 <head>
-	<title>Уборка подъездов в Днепропетровске. Цены на уборку в подъезде. Клининговая компания CleanDnipro.</title>
+	<title><?php echo ($title ? "$title - " : ""); ?> Уборка подъездов в Днепропетровске. Цены на уборку в подъезде. Клининговая компания CleanDnipro. Мы можем убрать в подъезде - быстро и дешево!</title>
 	<meta charset="UTF-8" />
-	<meta name="description" content="Уборка подъездов Днепропетровск. Клининговая компания CleanDnipro. <?php echo TEL;?>"/>
-	<meta name="keywords" content="убрать в подъезде, уробка подъездов Днепропетровск"/>
+	<meta name="description" content="Уборка подъездов Днепропетровск - <?php echo TEL;?>. Убрать в подъезде быстро и дешево поможет Клининговая компания CleanDnipro. Заказать уборку подъезда можно как на сайте так и по телефону <?php echo TEL;?>"/>
+	<meta name="keywords" content="убрать в подъезде, уробка подъездов Днепропетровск, убрать в подъезде быстро и дешево, клининговая компания CleanDnipro, CleanDnipro, заказать уборку подъезда, заказать срочную уборку подъезда, заказать срочную уборку подъезда перед праздником"/>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/default.css"/>
 	<link rel="stylesheet" media="only screen and (max-width: 760px), only screen and (max-device-width: 760px)" href="<?php echo URL; ?>/pablic/css/small_default.css"/>

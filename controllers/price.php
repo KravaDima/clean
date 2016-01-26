@@ -5,7 +5,7 @@
 		}
 
 		public function index(){
-			$this->view->render("price/index");
+			$this->view->render("price/index", $this->model->title());
 		}
 
 		public function order(){

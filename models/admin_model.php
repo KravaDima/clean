@@ -10,5 +10,9 @@
 			$list = $sth->fetchAll();
 			return $list;
 		}
+
+		public function title(){
+			return "Админка";
+		}
 	}
 ?>

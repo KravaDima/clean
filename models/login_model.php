@@ -19,5 +19,9 @@
 				header("Location: ../login");
 			}
 		}
+
+		public function title(){
+			return "Авторизация";
+		}
 	}
 ?>

@@ -5,7 +5,7 @@
 		}
 
 		public function index(){
-			$this->view->render("what/index");
+			$this->view->render("what/index", $this->model->title());
 		}
 	}
 ?>

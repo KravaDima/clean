@@ -3,5 +3,9 @@
 		function __construct(){
 			parent::__construct();
 		}
+
+		public function title(){
+			return "О нас";
+		}
 	}
 ?>

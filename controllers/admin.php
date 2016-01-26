@@ -13,7 +13,7 @@
 
 		public function index(){
 			$this->view->orderlist = $this->model->orderlist();
-			$this->view->render("admin/index");
+			$this->view->render("admin/index", $this->model->title());
 		}
 
 		public function logout(){
