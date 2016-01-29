@@ -13,4 +13,18 @@ form{
 #address{
 	width: 380px;
 }
-form div input { border-style: solid; border-color: #999 }
+form div input { 
+	border-style: solid; 
+	border-color: #999 
+}
+form a{
+	display: block;
+	width: 350px;
+	margin: 10px;
+	padding: 20px;
+	background-color: #bf395a;
+	border: solid 1px #bf395a;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+}
