@@ -1,6 +1,6 @@
 <div id="price">
 	<h1>Расчёт цены и объёма работ</h1>
-	<form action="<?php echo URL; ?>/price/order" method="POST">
+	<form action="<?php echo URL; ?>/price/order" name="order" method="POST">
 		<div id="form_ub">
 			<h1>Уборка подъезда *</h1>
 			<input class="radio" id="c1" type="radio" name="type" value="1" required><label for="c1">Регулярная</label>
@@ -23,8 +23,9 @@
 			<label><h2>Ваше имя: *</h2></label>
 			<input type="text" name="name" required>
 			<label><h2>Телефон: (в формате +380931234567) *</h2> </label>
-			<input type="text" name="tel" value="+380" pattern="\+380[0-9]{9}" required>
+			<input type="text" name="tel" value="+380" required>
 		</div>
-		<input class="link" type="submit" value="Отправить"/>
+		<!-- <input class="link" type="submit" value="Отправить"/> -->
+		<a href="javascript:checkFoo()">Оформить заказ</a>
 	</form>
 </div>

@@ -10,6 +10,7 @@
 	<link rel="stylesheet" media="only screen and (max-width: 760px), only screen and (max-device-width: 760px)" href="<?php echo URL; ?>/pablic/css/small_default.css"/>
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/order.css"/>
 	<link rel="stylesheet" href="<?php echo URL; ?>/pablic/css/admin.css"/>
+	<script src="<?php echo URL; ?>/pablic/js/form.js"></script>
 </head>
 <body>
 	<?php include_once("/libs/analyticstracking.php") ?>

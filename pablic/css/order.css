@@ -13,3 +13,4 @@ form{
 #address{
 	width: 380px;
 }
+form div input { border-style: solid; border-color: #999 }
