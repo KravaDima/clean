@@ -15,6 +15,7 @@
 				case 3: $x = "Разовая уборка"; break;
 			}
 			echo "<td>$x</td>";
+			echo "<td>$value[time]</td>";
 			echo "</tr>";
 		}
 	?>

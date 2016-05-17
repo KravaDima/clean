@@ -5,7 +5,7 @@
 		}
 
 		public function orderlist(){
-			$sth = $this->db->prepare("SELECT id, name, tel, address, type FROM orders");
+			$sth = $this->db->prepare("SELECT id, name, tel, address, type, time FROM orders");
 			$sth->execute();
 			$list = $sth->fetchAll();
 			return $list;
